@@ -18,16 +18,6 @@ class ProvaPluginBranchApplicationTests {
         Assertions.assertEquals(4, 4);
     }
 
-    @Test
-    void sottrazione() {
-        Integer totale = calcolo.calcoloAddizione();
-        Assertions.assertEquals(1, 1);
-    }
 
-    @Test
-    void moltiplicazione() {
-        Integer totale = calcolo.calcoloAddizione();
-        Assertions.assertEquals(4, 4);
-    }
 
 }
