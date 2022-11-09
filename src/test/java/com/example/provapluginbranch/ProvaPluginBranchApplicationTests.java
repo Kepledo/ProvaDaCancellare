@@ -20,13 +20,13 @@ class ProvaPluginBranchApplicationTests {
 
     @Test
     void sottrazione() {
-        Integer totale = calcolo.calcoloAddizione();
+        Integer totale = calcolo.calcoloSottrazione();
         Assertions.assertEquals(1, 1);
     }
 
     @Test
     void moltiplicazione() {
-        Integer totale = calcolo.calcoloAddizione();
+        Integer totale = calcolo.calcoloMoltiplicazione();
         Assertions.assertEquals(4, 4);
     }
 
