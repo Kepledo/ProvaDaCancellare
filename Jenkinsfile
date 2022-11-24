@@ -1,6 +1,11 @@
 pipeline {
     agent any
     stages {
+     stage("Clean Workspace"){
+            steps{
+                cleanWs()
+            }
+        }
         stage('git repo & clean') {
             steps {
                 bat "git clone https://github.com/Kepledo/ProvaDaCancellare.git"
