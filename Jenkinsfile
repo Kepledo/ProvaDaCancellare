@@ -1,5 +1,5 @@
 pipeline {
-    stage("Clean Workspace"){
+    stages("Clean Workspace"){
             cleanWs()
         }
     stages {
