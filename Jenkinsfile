@@ -1,7 +1,4 @@
 pipeline {
-    stages("Clean Workspace"){
-            cleanWs()
-        }
     stages {
         stage('Git repo & clean') {
             steps {
